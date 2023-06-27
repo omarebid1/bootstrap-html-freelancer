@@ -56,15 +56,18 @@
 
         <h1 class="text-center py-5"> PORTAFOLIO</h1>
 
+        <!-- CARDS INIZIO -->
         <div class="row mx-5 px-5">
 
             <!-- 1ST CARD -->
 
             <div class="col-4">
-                <div class="card">
+                <div class="card text-center">
                     <img src="./img/portfolio/cabin.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Cabin Website</h5>
+                        <a href="#" class="btn bg-info m-2">Preview</a>
+                        <a href="#" class="btn rounded m-2 border border-info text-info">Visit Website</a>
                     </div>
                 </div>
             </div>
@@ -72,10 +75,12 @@
             <!-- 2ND CARD -->
 
             <div class="col-4">
-                <div class="card">
+                <div class="card text-center">
                     <img src="./img/portfolio/cake.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Cake Website</h5>
+                        <a href="#" class="btn bg-info m-2">Preview</a>
+                        <a href="#" class="btn rounded m-2 border border-info text-info">Visit Website</a>
                     </div>
                 </div>
             </div>
@@ -83,46 +88,123 @@
             <!-- 3RD CARD -->
 
             <div class="col-4">
-                <div class="card">
+                <div class="card text-center">
                     <img src="./img/portfolio/circus.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Circus Website</h5>
+                        <a href="#" class="btn bg-info m-2">Preview</a>
+                        <a href="#" class="btn rounded m-2 border border-info text-info">Visit Website</a>
                     </div>
                 </div>
             </div>
 
             <!-- 4TH CARD -->
 
-            <div class="col-4">
-                <div class="card">
+            <div class="col-4 my-5">
+                <div class="card text-center">
                     <img src="./img/portfolio/game.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Game Website</h5>
+                        <a href="#" class="btn bg-info m-2">Preview</a>
+                        <a href="#" class="btn rounded m-2 border border-info text-info">Visit Website</a>
                     </div>
                 </div>
             </div>
 
             <!-- 5TH CARD -->
 
-            <div class="col">
-                <div class="card">
+            <div class="col-4 my-5">
+                <div class="card text-center">
                     <img src="./img/portfolio/safe.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Safe Website</h5>
+                        <a href="#" class="btn bg-info m-2">Preview</a>
+                        <a href="#" class="btn rounded m-2 border border-info text-info">Visit Website</a>
                     </div>
                 </div>
             </div>
 
             <!-- 6TH CARD -->
 
-            <div class="col">
-                <div class="card">
+            <div class="col-4 my-5">
+                <div class="card text-center">
                     <img src="./img/portfolio/submarine.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">submarine Website</h5>
+                        <a href="#" class="btn bg-info m-2">Preview</a>
+                        <a href="#" class="btn rounded m-2 border border-info text-info">Visit Website</a>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- 3RD ROW -->
+
+        <div class="row bg-info">
+
+            <h1 class="text-center py-5 m-0"> WANT AN OFFER?</h1>
+
+            <!-- FORM -->
+            <form class="row g-3 px-5 m-0 ">
+
+                <!-- FIRST NAME-->
+
+                <div class="col-6">
+                    <label for="inputFname" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="inputFname" placeholder="Enter your first name...">
+                </div>
+
+                <!-- LAST NAME -->
+
+                <div class="col-6">
+                    <label for="inputLname" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="inputLname" placeholder="Enter your last name...">
+                </div>
+
+                <!-- EMAIL -->
+
+                <div class="col-6">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+                  </div>
+
+                  <!-- HOURS REQUSTED -->
+
+                <div class="col-6">
+                    <label for="inputHours" class="form-label">Hours requested</label>
+                    <input type="number" class="form-control" id="inputHours"
+                        placeholder="Hours requested...">
+                </div>
+
+                <!-- Type of work -->
+
+                <div class="col-6">
+                    <label for="inputWork" class="form-label">Type of work</label>
+                    <select id="inputWork" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+
+                <!-- Discount Code -->
+
+                <div class="col-6">
+                    <label for="inputDiscount" class="form-label">Discount Code</label>
+                    <input type="number" class="form-control" id="inputDiscount">
+                </div>
+                
+                <!-- MESSAGE -->
+                <div>
+                    <label for="inputMessage" class="form-label">Message</label>
+                    <textarea name="" id="inputMessage" rows="10" class="col-12 border rounded"></textarea>
+                </div>
+                
+                <div class="col text-center m-2">
+                    <button type="submit" class="btn btn-primary bg-warning text-black">Send</button>
+                </div>
+
+            </form>
+
         </div>
 
     </div>
@@ -138,47 +220,3 @@
 </body>
 
 </html>
-
-<!--
-
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <h1 class="text-center py-5"> PORTAFOLIO</h1>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
--->
